@@ -32,8 +32,6 @@ It's highly recommended to use a virtual environment to manage project dependenc
 On Windows:
 python -m venv venv
 .\venv\Scripts\activate
-Use code with caution.
-Bash
 On macOS / Linux:
 python3 -m venv venv
 source venv/bin/activate
