@@ -24,7 +24,7 @@ Follow these steps to get the project up and running on your local machine.
 1. Clone the Repository
 ```bash
 git clone https://github.com/Saikumar1801/User-Management-System.git
-cd djangobanao_task
+cd User-Management-System
 ```
 2. Create and Activate a Virtual Environment
 It's highly recommended to use a virtual environment to manage project dependencies.
