@@ -1,0 +1,37 @@
+# serverless.yml
+
+service: serverless-email-api
+frameworkVersion: '4'
+
+provider:
+  # ... provider section is unchanged ...
+  name: aws
+  runtime: python3.12
+  region: us-east-1
+  timeout: 90
+
+  environment:
+    SENDER_EMAIL: "sender@example.com"
+  
+  iam:
+    # ... iam section is unchanged ...
+
+functions:
+  # ... functions section is unchanged ...
+  sendEmail:
+    handler: handler.send_email
+    events:
+      - httpApi:
+          path: /send-email
+          method: post
+
+plugins:
+  - serverless-python-requirements
+  - serverless-offline
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    usePoetry: false    # <--- ADD THIS
+    usePipenv: false    # <--- ADD THIS
+    layer: false        # <--- AND THIS
