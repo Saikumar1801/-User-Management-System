@@ -1,6 +1,5 @@
-# Python Django Banao - User Management System
+# Python Django Banao - User Management System With Serverless
 This project is a web application built with Python and Django as part of the Banao Task 1. It provides a complete user management system with role-based authentication and separate dashboards for different user types.
-https://drive.google.com/file/d/1QpHe2Vftk17bCNgvlfOXmxxgVPZueKoG/view?usp=sharing
 
 ## Project Description
 The application enables user signup and login for two distinct types of users: Patients and Doctors. After a successful login, users are automatically redirected to their respective dashboards, which display the details they provided during signup.
