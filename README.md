@@ -4,6 +4,8 @@ This project is a web application built with Python and Django as part of the Ba
 ## Project Description
 The application enables user signup and login for two distinct types of users: Patients and Doctors. After a successful login, users are automatically redirected to their respective dashboards, which display the details they provided during signup.
 
+https://drive.google.com/file/d/1JWGc5CbweCefmMcDsnBVfvVB6bVWT8Mx/view?usp=sharing
+
 ## Features
 User Signup: New users can create an account by providing their details.
 Role Selection: Users can sign up as either a "Patient" or a "Doctor".
